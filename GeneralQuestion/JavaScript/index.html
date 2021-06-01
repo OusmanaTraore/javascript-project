@@ -29,7 +29,10 @@
         <article class="question">
           <!-- question title -->
           <div class="question-title">
-            <p>Do you accept all major credit card?</p>
+            <p>
+              What is the significance, and what are the benefits, of including
+              'use strict' at the beginning of a JavaScript source file?
+            </p>
             <button type="button" class="question-btn">
               <span class="plus-icon">
                 <i class="far fa-plus-square"></i>
@@ -42,10 +45,40 @@
           <!-- question  text -->
           <div class="question-text">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
-              obcaecati cumque repellat debitis modi aut tempora et voluptatum
-              voluptates molestias.
+              The short and most important answer here is that use strict is a
+              way to voluntarily enforce stricter parsing and error handling on
+              your JavaScript code at runtime. Code errors that would otherwise
+              have been ignored or would have failed silently will now generate
+              errors or throw exceptions. In general, it is a good practice.
             </p>
+            <hr />
+            <h6>other benefits of strict mode include</h6>
+            <ol>
+              <li>
+                <h6>Makes debugging easier</h6>
+                <p></p>
+              </li>
+              <li>
+                <h6>Prevents accidental globals</h6>
+                <p></p>
+              </li>
+              <li>
+                <h6>Eliminates "this" coercion</h6>
+                <p></p>
+              </li>
+              <li>
+                <h6>Disallows duplicate parameter values</h6>
+                <p></p>
+              </li>
+              <li>
+                <h6>Makes eval() safer</h6>
+                <p></p>
+              </li>
+              <li>
+                <h6>Throws error on invalid usage of "delete"</h6>
+                <p></p>
+              </li>
+            </ol>
           </div>
         </article>
         <!-- end single question -->
@@ -94,11 +127,14 @@
               obcaecati cumque repellat debitis modi aut tempora et voluptatum
               voluptates molestias.
             </p>
+            <emoji-picker></emoji-picker>
           </div>
         </article>
         <!-- end single question -->
       </div>
     </section>
+    <!-- Json -->
+    <script type="text/javascript" src="/DATA/departement.json"></script>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>

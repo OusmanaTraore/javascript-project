@@ -1,4 +1,4 @@
-// 
+//
 // Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.
 // pageYOffset is a read - only window property that returns the number of pixels the document has been scrolled vertically.
 // slice extracts a section of a string without modifying original string
@@ -62,6 +62,7 @@ scrollLinks.forEach((link) => {
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
 
+    //calculate the heights
     const navHeight = navbar.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
     const fixedNav = navbar.classList.contains("fixed-nav");
@@ -82,4 +83,3 @@ scrollLinks.forEach((link) => {
     linksContainer.style.height = 0;
   });
 });
-// calculate heights

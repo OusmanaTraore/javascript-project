@@ -1,0 +1,51 @@
+{
+  "ile-de-france": [
+    {
+      "code": 75,
+      "département": "paris"
+    },
+    {
+      "code": 77,
+      "département": "seine et marne"
+    },
+    {
+      "code": 78,
+      "département": "yvelines"
+    },
+    {
+      "code": 91,
+      "département": "essonne"
+    },
+    {
+      "code": 92,
+      "département": "hauts-de-seine"
+    },
+    { "code": 93, "département": "seine saint-denis" },
+    { "code": 94, "département": "val-de-marne" },
+    { "code": 95, "département": "val d'oise" }
+  ],
+  "picardie": [
+    {
+      "code": 2,
+      "département": "aisne"
+    },
+    {
+      "code": 60,
+      "département": "oise"
+    },
+    {
+      "code": 80,
+      "département": "somme"
+    }
+  ],
+  "nord-pas-de-calais": [
+    {
+      "code": 59,
+      "département": "nord"
+    },
+    {
+      "code": 62,
+      "département": "pas-de-calais"
+    }
+  ]
+}

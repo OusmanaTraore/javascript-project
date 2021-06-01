@@ -1,0 +1,27 @@
+[
+  {
+    "Regions": [
+      {
+        "Nord-Est": [
+          "Nord-Picardie",
+          "Ile-de-France",
+          "Champagne Ardennes",
+          "Alsace-Lorraine",
+          "Bourgogne",
+          "Franche Comté"
+        ]
+      },
+      {
+        "Nord-Ouest": [
+          "Normandie",
+          "Bretagne",
+          "Pays-de-la-Loire",
+          "Centre",
+          "Poitou Charente"
+        ]
+      },
+      { "Sud-Ouest": ["Limousin", "Auvergne", "Aquitaine", "Midi-Pyrénéés"] },
+      { "Sud-Est": ["Rhône-Alpes", "Languedoc-Roussillon", "Paca", "Corse"] }
+    ]
+  }
+]
